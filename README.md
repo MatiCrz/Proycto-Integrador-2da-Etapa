@@ -28,3 +28,7 @@ Backend Script de la BD en MySQL Consultas : Insert - Select - Update - JOIN
 Consideraciones generales Cada Sprint debe tener registro de las ceremonias en Scrum: Planning (pueden utilizar https://www.planitpoker.com/ https://www.scrumpoker-online.org/es/ ), Daily, (opción en Discussion y/o Wiki de GitHub) Review Restrospective Idea Board - ejemplo https://ideaboardz.com/for/Sprint1/4511405 (no es necesario registrarse) EasyRetro https://easyretro.io/ (tienen 3 tableros por mes) https://easyretro.io/publicboard/nqKyiQtcoXcwLpslqW77YMPSWcp2/74d30e81-861d-48e1-8739-b7b157851ebe Mural https://app.mural.co/t/programacionweb7850/templates Ejemplo https://app.mural.co/t/programacionweb7850/m/programacionweb7850/1640903295717/aec6ef5fe04eb23c94be7d77103307da876a4a76?sender=uc41c88cc330fc459981e0080
 
 Otros recursos para la gestión AGILE https://www.zoho.com/es-xl/sprints/
+
+https://github.com/
+
+Si quieres profundizar un poco más, visita The First Day on GitHub
