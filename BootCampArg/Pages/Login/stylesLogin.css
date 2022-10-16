@@ -83,3 +83,39 @@ body {
     -webkit-overflow-scrolling: touch;
   }
 
+.botton_Google {
+
+
+  background-color: rgb(209, 209, 216);
+
+  border-radius: 10px;
+
+  height: 60px;
+
+}
+
+.logo {
+
+
+  margin-left: -225px;
+  margin-top: 3px;
+  width: 40px;
+  height: 40px;
+
+
+}
+
+
+h6{
+
+  margin-top: -33px;
+  margin-right: -35px;
+  color: rgb(92, 88, 88);
+
+}
+
+
+
+
+
+
