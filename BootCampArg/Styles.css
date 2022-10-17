@@ -1,0 +1,111 @@
+
+.Quienessomos{
+    background: #f0d6e8;
+    color:black
+    }
+
+.ayuda button{
+    margin-top: 10px;
+    background-color: rgb(133, 69, 201);
+    color: white;
+    border: none;
+    box-shadow: rgb(133, 69, 201);
+}
+
+.ayuda button:hover{
+    background-color: rgba(102, 51, 153, 0.432);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-ns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.card-newsletter{
+    width: 30%;
+    padding: 30px 0;
+    overflow: hidden;
+    background: linear-gradient(180deg, #cc663d 0%, #d1c696 100%); 
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px ;
+}
+
+ 
+
+.card_text{
+    text-align: left;
+    width: 90%;
+    margin-left:  auto;
+    margin:0  auto;
+
+}
+
+
+.card_title{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 8px;
+    
+}
+
+.card_copy{
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.card_button{
+    display: block;
+    background: linear-gradient(180deg, #ce5252b6 0%, #ffffffa4 100%);
+    border-radius: 6px; 
+    text-decoration: none;
+    width: 100%;
+    color: #06060a;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0 ;
+}
+
+.card_date{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.background{
+    width: 68%;
+    height: 290px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 60px;
+    }
+
+
+.background_img{
+    width: 100%;
+    height: 103%;
+    object-fit: cover;
+    border-radius: inherit;
+    }
+
+
