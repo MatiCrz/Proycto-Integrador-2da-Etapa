@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .facebook{
     color: rgb(5, 5, 204);
 }
@@ -6,4 +7,22 @@
 }
 .Twitter{
     color: rgb(69, 210, 245);
+=======
+.background-image{
+    background-image: url("./Imagenes/fondo_pagina.png");
+    background-color: #cccccc;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover;
+}
+.bg-initial {
+    background-color: #9e95e9!important;
+}
+body{
+    background-image: url("./Imagenes/fondo_pagina.png"); 
+    background-color: #cccccc;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover;
+>>>>>>> 13172f2e040a2f1533030f9380fc571befd9f19a
 }

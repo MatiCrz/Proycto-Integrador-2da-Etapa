@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .facebook{
     color: rgb(5, 5, 204);
 }
@@ -7,3 +8,24 @@
 .Twitter{
     color: rgb(69, 210, 245);
 }
+=======
+<<<<<<< HEAD
+.Quienessomos{
+    background: #f0d6e8;
+    color:black
+    }
+=======
+.ayuda button{
+    margin-top: 10px;
+    background-color: rgb(133, 69, 201);
+    color: white;
+    border: none;
+    box-shadow: rgb(133, 69, 201);
+}
+
+.ayuda button:hover{
+    background-color: rgba(102, 51, 153, 0.432);
+}
+
+>>>>>>> 0af65818f0130beefe33118eb7853744b34b1c95
+>>>>>>> 13172f2e040a2f1533030f9380fc571befd9f19a

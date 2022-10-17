@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="Styles-Usuario.css">
+    <link rel="stylesheet" href="style-ayuda.css">
     <title>BootCamptArg</title>
 </head>
 <body>
@@ -17,16 +17,28 @@
                         <div class="col-6">
                             <nav class="navbar navbar-light bg-light">
                                 <div class="container-fluid">
-                                  <a class="navbar-brand" href="/Index.html">
+                                  <a class="navbar-brand" href="Pages/Usuario/Usuario.html">
                                     <img src="/assets/login.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
                                   </a>
                                 </div>
                             </nav>
                         </div>
-                        
+                        <div class="col-6">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item justify-content-str"></li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="/Pages/Login/Login.html">Login</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="/Pages/Registros/Registro.html">Registrate</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="row"> <!--Banner-->
-                        <h1 style="text-align:center ;">BootCamptArg</h1>
+
+                      <h1 style="text-align:center ;">BootCampAr</h1>
+
                     </div>
                 </div>
             </div>
@@ -42,9 +54,9 @@
               <a class="nav-link" href="/Pages/Noticias/Noticias.html">Notificaciones</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Pages/Tienda/">Tienda</a>
+              <a class="nav-link" href="/Pages/Tienda/Tienda.html">Tienda</a>
             </li>
-          </ul>
+        </ul>
     </nav>
 
     <main>
@@ -53,58 +65,21 @@
                 <div class="row">
                     <div class="card">
                         <div class="card-body">
-                            <div class="row">
-                              
-                              <br>
-                              <br>                              
-                                <div class="d-flex align-items-start">
-                                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Datos</button>
-                                      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Logros</button>
-                                      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Certificados</button>
-                                      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Configuraciones</button>
-                                      <button type="button" class="btn btn-danger">Eliminar cuenta</button>
-                                    </div>
-                                    <div class="tab-content" id="v-pills-tabContent">
-                                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Los datos del usuario</div>
-                                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Los lenguajes que usa y su progreso</div>
-                                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Los cursos completados y sus titulos</div>
-                                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                                        <div class="container">
-                                          <h5>Configuraciones de Usuario</h5>
-                                          <br>
+                            <h1> Ayuda</h1>
+                            <p>Esta seccion fue creada a modo de instructivo/guia para los nuevos usuarios.</p>
 
-                                          <form action="">
-                                            <label for="Nombre">Nombre</label>  
-                                            <input type="text" name="Nombre">
-                                            <br>
-                                            <label for="Apellido">Apellido</label>
-                                            <input type="text" name="Apellido">
-                                            <br>
-                                            <label for="Usuario" class="usuario">Usuario</label>
-                                            <input type="text" name="Usuario">
-                                            <br>
-                                            <label for="Email" class="email">Email</label>
-                                            <input type="text" name="Email">
-                                            <br>
-                                            <br>
-                                            <label for="Foto">Foto de perfil</label>
-                                            <br>
-                                            <input type="file" name="Foto de Perfil">                                           
-                                            
-
-                                            
-                                            <button class="botondeenvio">Guardar</button>
-                                          
-                                          </form>
-                                        </div>
-                                  
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  
-                            </div>
+                            <ul>
+                                <li>
+                                    <h3>Registro</h3>
+                                    <p>Parea registrarte solo debes ingresar en el boton de la parte superior de la pagina,
+                                        luego deberas completar el formulario con tus datos y validar tu correo elecctronico
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>Login</h3>
+                                    <p>Una vez registrado, deberas proceder a iniciar secion en la parte superior de la pagina, ahi deberas completar el formulario con tu nombre de usuario y contraseña para posteriormente precionar el boton de iniciar secion</p>
+                                </li>
+                            </ul>
                         </div>
                       </div>
                 </div>
@@ -112,6 +87,7 @@
         </section>
     </main>
 
+    
 
     <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
@@ -191,16 +167,19 @@
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Redes Sociales
+              Useful links
             </h6>
-            <p class="facebook">
-              <a href="https://www.facebook.com/profile.php?id=100086517970542" class="text-reset">Facebook</a>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
             </p>
-            <p class="Instagram">
-              <a href="https://www.instagram.com/mountain_code/" class="text-reset">Instagram</a>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
             </p>
-            <p class="Twitter">
-              <a href="https://twitter.com/mountain_code" class="text-reset">Twitter</a>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -230,7 +209,7 @@
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
     <!-- Copyright -->
-  </footer>
+</footer>
   <!-- Footer -->
 
 
