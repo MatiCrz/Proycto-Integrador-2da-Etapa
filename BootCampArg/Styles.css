@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 .Quienessomos{
     background: #f0d6e8;
     color:black
     }
-=======
+
 .ayuda button{
     margin-top: 10px;
     background-color: rgb(133, 69, 201);
@@ -16,7 +16,7 @@
     background-color: rgba(102, 51, 153, 0.432);
 }
 
->>>>>>> 0af65818f0130beefe33118eb7853744b34b1c95
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
@@ -29,7 +29,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.container-nw{
+.container-ns{
     display: flex;
     justify-content: space-between;
     align-items: center;
