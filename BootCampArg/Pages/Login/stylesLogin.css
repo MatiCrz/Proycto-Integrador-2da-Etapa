@@ -16,6 +16,7 @@ body {
   padding: 15px;
 }
 
+<<<<<<< HEAD
 .form-signin .form-floating:focus-within {
   z-index: 2;
 }
@@ -112,10 +113,26 @@ h6{
   margin-right: -35px;
   color: rgb(92, 88, 88);
 
+=======
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}.facebook{
+  color: rgb(5, 5, 204);
+}
+.Instagram{
+  color:hsl(24, 98%, 51%);
+}
+.Twitter{
+  color: rgb(69, 210, 245);
+>>>>>>> fbf1eadf59b7196d89970e14046c05048d2f1625
 }
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> fbf1eadf59b7196d89970e14046c05048d2f1625
