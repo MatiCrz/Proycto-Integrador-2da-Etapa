@@ -23,19 +23,7 @@
                                 </div>
                             </nav>
                         </div>
-                        <!--
-                        <div class="col-6">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item justify-content-str"></li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="Pages/Login/Login.html">Login</a>
-                                </li>
-                                <li>
-                                    <a class="nav-link" href="Pages/Registros/Registro.html">Registrate</a>
-                                </li>
-                            </ul>
-                        </div>
-                        -->
+                        
                     </div>
                     <div class="row"> <!--Banner-->
                         <h1 style="text-align:center ;">BootCamptArg</h1>
@@ -66,6 +54,9 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
+                              
+                              <br>
+                              <br>                              
                                 <div class="d-flex align-items-start">
                                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                       <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Datos</button>
@@ -78,7 +69,38 @@
                                       <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Los datos del usuario</div>
                                       <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Los lenguajes que usa y su progreso</div>
                                       <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Los cursos completados y sus titulos</div>
-                                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Formulario de configuracion de cuenta para actualizar y dar bajas</div>
+                                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                        <div class="container">
+                                          <h5>Configuraciones de Usuario</h5>
+                                          <br>
+
+                                          <form action="">
+                                            <label for="Nombre">Nombre</label>  
+                                            <input type="text" name="Nombre">
+                                            <br>
+                                            <label for="Apellido">Apellido</label>
+                                            <input type="text" name="Apellido">
+                                            <br>
+                                            <label for="Usuario" class="usuario">Usuario</label>
+                                            <input type="text" name="Usuario">
+                                            <br>
+                                            <label for="Email" class="email">Email</label>
+                                            <input type="text" name="Email">
+                                            <br>
+                                            <br>
+                                            <label for="Foto">Foto de perfil</label>
+                                            <br>
+                                            <input type="file" name="Foto de Perfil">                                           
+                                            
+
+                                            
+                                            <button class="botondeenvio">Guardar</button>
+                                          
+                                          </form>
+                                        </div>
+                                  
+                                        </p>
+                                      </div>
                                     </div>
                                   </div>
                                   
