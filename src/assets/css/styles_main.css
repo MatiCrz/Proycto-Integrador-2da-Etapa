@@ -1,7 +1,6 @@
 /* selectores principales - generales */
 body {
     font-size: 0.875rem;
-    background-color: aqua;
 }
 
 
@@ -27,7 +26,7 @@ body {
 /* PAGINA LOGIN */
 
 body.login{
-    background-color: blue;
+ /*  */
 }
 
 /* Header */
