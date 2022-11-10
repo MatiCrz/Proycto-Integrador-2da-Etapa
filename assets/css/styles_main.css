@@ -30,6 +30,61 @@ body.login{
 }
 
 /* Header */
+.container-fluid{
+    background-image: url(/assets/img/bg.jpg);
+}
+.rowPers {
+    height: 150px;
+}
+div img{
+    height: 70px;
+    width: 290px;
+}
+/* nav */
+.serachBar{
+    width: 100%;
+    max-width: 400px;
+    display: inline-flex;
+}
+.serachBar_input{
+    flex-grow: 1;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #fff;
+    border-right: 0px;
+    border-radius: 20px 0 0 20px;
+    background: #9eadc0;
+    transition: background 0.25s, box-shadow 0.25s;
+}
+.serachBar_input:focus{
+    background: #c9def7;
+    box-shadow: 0 0 2px #478ce0 ;
+}
+.serachBar_input::placeholder{
+    color: #08172a;
+    padding-left: 6px;
+    font-size: 12pt;
+}
+.serachBar_button{
+    width: 40px;
+    background: #9eadc0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-left: 0px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+.serachBar_button svg{
+    color: #fff;
+}
+.imgPer{
+    height: 70px;
+    width: 75px;
+}
+
 
 /* nav */
 
