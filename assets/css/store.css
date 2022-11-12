@@ -1,0 +1,28 @@
+.container{
+    border: 5px solid
+    red;
+}
+.row {
+    border: 5px solid green;
+}
+.col-7 {
+    border: 5px solid blue;
+    height: 34px;
+    text-align: center;
+
+}
+.boton {
+    background-color: magenta;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    border: none;
+    align-items: center;
+}
+.botoncarrito{
+    background-color: magenta;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    border: none;
+    align-items: center;
+    
+}
