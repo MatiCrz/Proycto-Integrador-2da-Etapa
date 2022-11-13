@@ -1,17 +1,31 @@
 .background-image{
-    background-image: url("./Imagenes/fondo_pagina.png");
+    background-image: url("./Imagenes/Fondo-pagina.png");
     background-color: #cccccc;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:cover;
+    background-size: cover; 
 }
 .bg-initial {
     background-color: #9e95e9!important;
 }
 body{
-    background-image: url("./Imagenes/fondo_pagina.png"); 
+    background-image: url("./Imagenes/Fondo-pagina.png"); 
     background-color: #cccccc;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:cover;
+    background-size: cover;
+}
+.card-image {
+    width: 195px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    padding: 0.5em;
+}
+.card2-image {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    padding: 0.5em;
 }
