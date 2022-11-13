@@ -1,6 +1,10 @@
 /* selectores principales - generales */
 body {
     font-size: 0.875rem;
+<<<<<<< HEAD
+}
+
+=======
     background-color: #7C8A9D;
 }
 
@@ -11,10 +15,40 @@ body {
      overflow: hidden;
 
 }
+>>>>>>> 667e254ce391086647a3bfa269d69d91e3d20005
 
 /* ********************* */
 /* PAGINA INDEX */
 /* Header */
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+
+/* nav */
+
+/* main */
+
+/* section */
+
+/* articles */
+
+/* footer */
+/* **************** */
+
+
+
+
+/* ********************* */
+/* PAGINA LOGIN */
+
+body.login{
+ /*  */
+}
+
+/* Header */
+<<<<<<< HEAD
+>>>>>>> dev
 .container-fluid{
     
 }
@@ -72,9 +106,15 @@ body {
     width: 35px;
 }
 
+<<<<<<< HEAD
 .row.align-self-end div{
 
 }
+>>>>>>> 667e254ce391086647a3bfa269d69d91e3d20005
+=======
+=======
+>>>>>>> Matías-Nieto
+>>>>>>> dev
 
 /* nav */
 
@@ -97,6 +137,11 @@ body.login{
  /*  */
 }
 
+<<<<<<< HEAD
+/* Header */
+
+=======
+>>>>>>> 667e254ce391086647a3bfa269d69d91e3d20005
 /* nav */
 
 /* main */
