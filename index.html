@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<<<<<<< HEAD
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,8 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles_main.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
     <!-- header -->
@@ -118,13 +120,14 @@
 <body>
     <div class="container-fluid mainPer">
         <!-- header -->
+        <!-- header -->
         <header>
             <div class="container">
                 <div class="rowPers row align-items-center">
-                    <div class="col-md-4"><img class="imglogo img-fluid"
+                    <div class="col-md-4 mt-4 mb-4 mt-md-0 mb-md-0"><img class="imglogo img-fluid"
                              src="assets/img/logo-w.png"
                              alt="Logo"></div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-4 mb-md-0">
                         <form action="/."
                               method="get">
                             <div class="serachBar">
@@ -149,37 +152,82 @@
                         </form>
                     </div>
                     <div class="col-md-5">
-                        <div class="row justify-content-center">
-                            <div class="col-2">
-                                <img class="img-fluid imgPer"
-                                     src="assets/img/network.png"
-                                     alt="">
+                        <!-- nav -->
+                        <nav>
+                            <div class="row justify-content-between justify-content-md-start arfigcaption">
+                                <div class="col-2 icoNosotros">
+                                    <figure onmouseover="changeClass('nosotros')"
+                                            onmouseout="restClass('nosotros')"
+                                            class="text-center  mt-1 fig"
+                                            title="Nosotros"><a href="#"
+                                           target="_self"><img class="img-fluid imgPer"
+                                                 src="assets/img/network.png"
+                                                 alt="Nosotros"></a>
+                                        <figcaption id="nosotros"
+                                                    class="ms-md-2 position-absolute d-none fw-lighter text-light">Nosotros
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-2">
+                                    <figure onmouseover="changeClass('curso')"
+                                            onmouseout="restClass('curso')"
+                                            class="text-center mt-1 fig"
+                                            title="Cursos"><a href="#"
+                                           target="_self"><img class="img-fluid imgPer "
+                                                 src="assets/img/curso.png"
+                                                 alt="Cursos"></a>
+                                        <figcaption id="curso"
+                                                    class="ms-md-3 position-absolute d-none fw-lighter text-light">Cursos
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-2">
+                                    <figure onmouseover="changeClass('compras')"
+                                            onmouseout="restClass('compras')"
+                                            class="text-center mt-1 fig"
+                                            title="Compras"><a href="#"
+                                           target="_self"><img class="img-fluid imgPer"
+                                                 src="assets/img/cart.png"
+                                                 alt="Compras"></a>
+                                        <figcaption id="compras"
+                                                    class="ms-md-3 position-absolute d-none fw-lighter text-light">Compras
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-2">
+                                    <figure onmouseover="changeClass('noti')"
+                                            onmouseout="restClass('noti')"
+                                            class="text-center mt-1 fig"
+                                            title=""><a href="#"
+                                           target="_self"><img class="img-fluid imgPer"
+                                                 src="assets/img/noti.png"
+                                                 alt=""></a>
+                                        <figcaption id="noti"
+                                                    class="ms-md-3 position-absolute d-none fw-lighter text-light">Avisos
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-2">
+                                    <figure onmouseover="changeClass('perfil')"
+                                            onmouseout="restClass('perfil')"
+                                            class="text-center mt-1 fig"
+                                            title="Perfil"><a href="#"
+                                           target="_self"><img class="img-fluid imgPer"
+                                                 src="assets/img/user.png"
+                                                 alt="Perfil"></a>
+                                        <figcaption id="perfil"
+                                                    class="ms-md-3 position-absolute d-none fw-lighter text-light">Perfil
+                                        </figcaption>
+                                    </figure>
+                                </div>
                             </div>
-                            <div class="col-2">
-                                <img class="img-fluid imgPer    "
-                                     src="assets/img/curso.png"
-                                     alt="">
-                            </div>
-                            <div class="col-2">
-                                <img class="img-fluid imgPer"
-                                     src="assets/img/cart.png"
-                                     alt="">
-                            </div>
-                            <div class="col-2">
-                                <img class="img-fluid imgPer"
-                                     src="assets/img/noti.png"
-                                     alt="">
-                            </div>
-                            <div class="col-2">
-                                <img class="img-fluid imgPer"
-                                     src="assets/img/user.png"
-                                     alt="">
-                            </div>
-                        </div>
+                        </nav>
+                        <!-- fin-aav  -->
                     </div>
                 </div>
             </div>
         </header>
+        <!-- fin-header -->
         <!-- fin-header -->
 
         <!-- nav -->
@@ -211,7 +259,84 @@
 
         <!-- footer -->
         <footer class="container-fluid">
+            <!--footer parte superior -->
+            <div class="row">
 
+                <div class="col">
+                    <div class="row">
+                        <div class="col mt-3">
+                            <button class="boton txt_parrafo">Más info</button>
+                        </div>
+
+                        <div class="col mt-3" >
+                            <div class="form-floating">
+                                <input class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></input>
+                                <label for="floatingTextarea">Mail</label>
+                              </div>
+                        </div>
+
+                        <div class="col mt-2">
+                            <p class="txt_parrafo" style="text-decoration: none;">Dejanos tu mail y te enviaremos más información sobre nuestros cursos </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row">
+                        <div class="col mt-4 text-center"> 
+                              <a class="txt_parrafo" style="text-decoration: none;"  href="./views/Home/index.html"> Home </a>
+                        </div>
+                        <div class="col mt-4 text-center ">
+                            <a class="txt_parrafo" style="text-decoration: none;" href="./views/Cursos/index.html"> Cursos </a>
+                        </div>
+                        <div class="col mt-4 text-center ">
+                            <a class="txt_parrafo" style="text-decoration: none;" href="./views/Store/index.html"> Tienda </a>
+                        </div>
+                        <div class="col mt-4 text-center ">
+                            <a class="txt_parrafo" style="text-decoration: none;" href="./views/Perfil/index.html"> Perfil </a>
+                        </div>
+                        <div class="col mt-4 text-center ">
+                            <a class="txt_parrafo" style="text-decoration: none;" href="./views/Login/login.html"> Login </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer parte inferior-->
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col mt-3">
+                            <p class="txt_parrafo" style="text-decoration: none; text-align: center;"> © Copyright 2022 - Argentina</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://www.facebook.com/">
+                                <img class="icon_facebook rounded mx-auto d-block"  src="assets/img/Pagina de Inicio/imagenes - Footer/facebook-logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.instagram.com/">
+                                <img class="icon_instagram rounded mx-auto d-block" src="assets/img/Pagina de Inicio/imagenes - Footer/instagram-logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://twitter.com/">
+                                <img class="icon_twitter rounded mx-auto d-block" src= "assets/img/Pagina de Inicio/imagenes - Footer/twitter-logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.youtube.com/">
+                                <img class= "icon_youtube rounded mx-auto d-block" src="assets/img/Pagina de Inicio/imagenes - Footer/youtube-logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!-- fin-footer -->
     </div>
