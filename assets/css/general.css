@@ -1,5 +1,6 @@
 /* selectores principales - generales */
 body {
+    font-size: 0.875rem;
     color: white;
     background-image: url(/assets/img/Pagina_de_Login/Fondo_de_pagina.png);
     background-size: cover;
@@ -43,3 +44,4 @@ body {
 .boton_tienda:hover{
     background-color: #455973a8;
 }
+

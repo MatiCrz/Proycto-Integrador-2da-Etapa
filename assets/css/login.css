@@ -56,3 +56,11 @@
 .boton img{
     max-height: 30px;
 }
+
+.check{
+    background-color: #599DD9;
+    border-radius: 5%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
