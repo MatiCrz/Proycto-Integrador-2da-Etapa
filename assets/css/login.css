@@ -1,5 +1,9 @@
 body{
+    color: aliceblue;
     background-image: url(/Proyecto-Integrador-2da-Etapa/assets/img/Pagina_de_Login/Fondo_de_pagina.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .txt_banner{
