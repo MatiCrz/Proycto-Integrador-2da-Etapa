@@ -1,80 +1,92 @@
 // login --> terminado
 function login() {
+  // Toma los valores enviados desde el html y los guarda en variables
+  var reg = N_usuario_login.value;
+  var pas = contraseña_login.value;
 
-    // Toma los valores enviados desde el html y los guarda en variables
-    var reg = N_usuario_login.value
-    var pas = contraseña_login.value
+  // Mensajes
+  let repUser = document.getElementById("rep_user")
+  let repPass = document.getElementById("rep_pass");
 
-    // Mensajes
-    let rep = document.getElementById("respuestaLogin");
-
-    // login valido - usuarios predeterminados
-    if(usuarios.includes(reg)){
-
-        if(reg == "Agus25"){
-            if(Agus25.contra == pas){
-                rep.append("Bienvenida Agus25")
-                window.location.href = "agus25.html"
-            }
-            else if(pas == ""){
-                rep.append("Ingresa una contraseña")
-            }
-            else{
-                rep.append("Contraseña invalida")
-            }
+  // login valido - usuarios predeterminados
+  if (usuarios.includes(reg)) {
+    if (reg == "Agus25") {
+        if (Agus25.contraseña == pas) {
+            repUser.append("Bienvenida Agus25");
+            window.location.href = "index.html"
         }
-        
-
-        if(reg == "Raul36"){
-            if(Raul36.contra == pas){
-                rep.append("Bienvenida Raul36")
-                window.location.href = "Raul36.html"
-            }
-            else if(pas == ""){
-                rep.append("Ingresa una contraseña")
-            }
-            else{
-                rep.append("Contraseña invalida")
-            }
-        }
-
-        if(reg == "Bri58"){
-            if(Bri58.contra == pas){
-                rep.append("Bienvenida Bri58")
-                window.location.href = "Bri58.html"
-            }
-            else if(pas == ""){
-                rep.append("Ingresa una contraseña")
-            }
-            else{
-                rep.append("Contraseña invalida")
-            }
-        }
-        if(reg == "Manu99"){
-            if(Manu99.contra == pas){
-                rep.append("Bienvenida Manu99")
-                window.location.href = "Manu99.html"
-            }
-            else if(pas == ""){
-                rep.append("Ingresa una contraseña")
-            }
-            else{
-                rep.append("Contraseña invalida")
-            }
-        }
-
-    }
-
-    // errores en los campos
-    else{
-
-        if(reg == ""){
-            alert("campo usuario vacio")
-        }
-        
-        if(pas == ""){
-            alert("campo contraseña vacio")
+        else if (pas == "") {
+            repPass.append("Ingresa una contraseña");
+        } 
+        else {
+            repPass.append("Contraseña invalida");
         }
     }
 
+    if (reg == "Raul36") {
+        if (Raul36.contraseña == pas) {
+            repUser.append("Bienvenida Raul36");
+            window.location.href = "Raul36.html";
+        } 
+        else if (pas == "") {
+            rep.append("Ingresa una contraseña");
+        } 
+        else {
+            repPass.append("Contraseña invalida");
+        }
+    }
+
+    if (reg == "Bri58") {
+        if (Bri58.contraseña == pas) {
+            repUser.append("Bienvenida Bri58");
+            window.location.href = "Bri58.html";
+      }
+      else if (pas == "") {
+        rep.append("Ingresa una contraseña");
+      } else {
+        repPass.append("Contraseña invalida");
+      }
+    }
+    
+    if (reg == "Manu99") {
+      if (Manu99.contraseña == pas) {
+        repUser.append("Bienvenida Manu99");
+        window.location.href = "Manu99.html";
+      } else if (pas == "") {
+        rep.append("Ingresa una contraseña");
+      } else {
+        repPass.append("Contraseña invalida");
+      }
+    }
+
+    if (reg == "Tom22") {
+        if (Tom22.contraseña == pas) {
+            repUser.append("Bienvenida Tom22");
+            window.location.href = "Tom22.html";
+        } 
+        
+        else if (pas == "") {
+            repPass.append("Ingresa una contraseña");
+        } 
+
+        else {
+            repPass.append("Contraseña invalida");
+        }
+      }
+  }
+
+  // errores en los campos
+  else {
+    if (reg == "") {
+        repUser.append("campo usuario vacio");
+    }
+
+    if (pas == "") {
+        repPass.append("campo contraseña vacio");
+    }
+  }
+}
+
+function profe(){
+    alert("ingrese los siguienes nombres de usuarios /Agus25/Raul36/Bri58/Manu99/Tom22 - todas las contraseñas son 123")
 }
