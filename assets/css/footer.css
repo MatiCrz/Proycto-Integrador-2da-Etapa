@@ -1,0 +1,36 @@
+.boton{
+    background-color: #599dd9;
+    border-radius: 15%;
+    border: none;
+    margin-left: 40%;
+    padding: 4%;
+}
+
+footer{
+    background-color: #1445a6;
+    border-radius: 10% 10% 0% 0%;
+}
+.icon_facebook{
+    height: 35%;
+    max-height: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+.icon_instagram{
+    height: 35%;
+    max-height: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+.icon_twitter{
+    height: 35%;
+    max-height: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+.icon_youtube{
+    height: 35%;
+    max-height: 50%;
+    margin: 0%;
+    padding: 0%;
+}

@@ -72,11 +72,15 @@ body {
 
 .arfigcaption  figure figcaption{
     font-weight: 300;
+
+.row.align-self-end div{
+
 }
 
  .arfigcaption figure figcaption { 
     transition: all 0.25s;
   }
+
 
  .icoNosotros:hover{
     display:block;
