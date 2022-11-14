@@ -1,8 +1,10 @@
 body{
     color: aliceblue;
-    background-image: url(/assets/img/fondodepagina.png);
-    background-size: auto;
-    overflow: hidden;
+    background-image: url(/assets/img/pag-login/Fondo_de_pagina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .txt_banner{
