@@ -90,3 +90,4 @@ function login() {
 function profe(){
     alert("ingrese los siguienes nombres de usuarios /Agus25/Raul36/Bri58/Manu99/Tom22 - todas las contraseñas son 123")
 }
+
