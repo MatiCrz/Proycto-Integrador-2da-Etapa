@@ -32,8 +32,8 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/general.css" />
-    <link rel="stylesheet" href="/assets/css/login.css" />
+    <link rel="stylesheet" href="/Proyecto-Integrador-2da-Etapa/assets/css/general.css" />
+    <link rel="stylesheet" href="/Proyecto-Integrador-2da-Etapa/assets/css/login.css" />
     <title>BootcampAr | Login</title>
   </head>
   <body>
@@ -55,19 +55,20 @@
         <div class="container">
           <div class="row">
             <!--cuerpo izquierda-->
-            <div class="col-8 cuerpo">
+            <div class="col cuerpo">
               <div class="row bg-banner bg-imagen bg-txt">
-                <div class="col-8">
+                <div class="col">
                   <h1 class="txt_banner">Log In</h1>
                 </div>
                 <div class="col-4 img-ingreso">
-                  <img src="/assets/img/Pagina_de_Login/imagenes_barra_de_LOGIN/Icono de ingreso.png" class="rounded float-end" alt="">
+                  <img src="/Proyecto-Integrador-2da-Etapa/assets/img/Pagina_de_Login/imagenes_barra_de_LOGIN/Icono de ingreso.png" class="rounded float-end" alt="">
                 </div>
               </div>
               <div class="row input_usuario">
-                <div class="col-11">
+                <div class="col">
+                  <label for="">Usuario</label>
                   <div class="input-group mb-3">
-                    <span class="input-group-text"><img src="" alt="">@</span>
+                    <span class="input-group-text"><img class="icon_input" src="/Proyecto-Integrador-2da-Etapa/assets/img/Pagina_de_Login/imagenes_barra_de_LOGIN/Icono usuario.png" alt=""></span>
                     <div class="form-floating">
                       <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
                       <label for="floatingInputGroup1">Username</label>
@@ -76,9 +77,10 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-11">
+                <div class="col">
+                  <label for="">Contraseña</label>
                   <div class="input-group mb-3">
-                    <span class="input-group-text">@</span>
+                    <span class="input-group-text"><img class="icon_input" src="/Proyecto-Integrador-2da-Etapa/assets/img/Pagina_de_Login/imagenes_barra_de_LOGIN/Icono contraseña.png" alt=""></span>
                     <div class="form-floating">
                       <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
                       <label for="floatingInputGroup1">Username</label>
@@ -88,16 +90,17 @@
               </div>
               <div class="row">
                 <div class="col-2"><input type="checkbox"/>Recordar</div>
+                <div class="col"><button onclick="profe()">Profe precione en mi</button></div>
               </div>
               <div class="row">
-                <div class="d-grid gap-2 col-10 mx-auto">
+                <div class="d-grid gap-2 col mx-auto">
                   <div class="d-grid gap-2">
                     <button class="btn btn-primary boton" type="button">Iniciar Sesion</button>
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="d-grid gap-2 col-10 mx-auto">
+                <div class="d-grid gap-2 col mx-auto">
                   <div class="d-grid gap-2">
                     <button class="btn btn-primary boton" type="button">Ingresa con <img src="/assets/img/Pagina_de_Login/imagenes_barra_de_LOGIN/Icono Google +.png" alt="img"></button>
                   </div>
@@ -112,23 +115,9 @@
                 </div>
               </div>
             </div>
-            <!--Cuerpo derecho-->
-            <div class="col-4 cuerpo_izq">
-                <div class="row">
-                    <h1 class="txt_parrafo">!Bienvenido de nuevo Juan¡</h1>
-                </div>
-                <div class="row">
-                    <img src="/assets/img/Pagina_de_Login/imagenes_barra_de_LOGIN/usuario.png" class="icon_usuario img-thumbnail" alt="foto">
-                </div>
-                <div class="row">
-                    <p class="txt_subtitulo"><i>Juan_perez85</i></p>
-                </div>
-            </div>
           </div>
         </div>
-        <!-- posible descarte -->
-        <!-- <div class="col-5"><button class="btn boton">¿Todavia no tenes una cuenta?</button></div> -->
-        <!-- posible descarte -->
+
         <!-- article -->
         <article></article>
         <!-- fin-article -->
