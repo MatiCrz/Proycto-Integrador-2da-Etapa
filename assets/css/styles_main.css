@@ -6,10 +6,8 @@ body {
 
 .mainPer{
     background: url(../../assets/img/bgsite.png) no-repeat center center; 
-
     background-size: auto;
      overflow: hidden;
-
 }
 
 /* ********************* */
@@ -66,44 +64,21 @@ body {
 }
 .serachBar_button svg{
     color: #fff;
-}
+} 
 .imgPer{
     height: 35px;
     width: 35px;
 }
 
-.row.align-self-end div{
-
+.arfigcaption  figure figcaption{
+    font-weight: 300;
 }
 
-/* nav */
+ .arfigcaption figure figcaption { 
+    transition: all 0.25s;
+  }
 
-/* main */
-
-/* section */
-
-/* articles */
-
-/* footer */
-/* **************** */
-
-
-
-
-/* ********************* */
-/* PAGINA LOGIN */
-
-body.login{
- /*  */
-}
-
-/* nav */
-
-/* main */
-
-/* section */
-
-/* articles */
-
-/* footer */
-/* **************** */
+ .icoNosotros:hover{
+    display:block;
+    transition: all 0.25s;
+  }
