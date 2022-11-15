@@ -8,29 +8,35 @@
 
 footer{
     background-color: #1445a6;
-    border-radius: 10% 10% 0% 0%;
+    border-radius: 20px 20px 20px 20px;
 }
 .icon_facebook{
-    height: 35%;
+    height: 35px;
     max-height: 50px;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
+    
 }
 .icon_instagram{
-    height: 35%;
+    height: 35px;
     max-height: 50px;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 .icon_twitter{
-    height: 35%;
+    height: 35px;
     max-height: 50px;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 .icon_youtube{
-    height: 35%;
-    max-height: 50%;
-    margin: 0%;
-    padding: 0%;
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.txt_parrafo{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+
 }
