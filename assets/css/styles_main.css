@@ -1,15 +1,19 @@
 /* selectores principales - generales */
 body {
+<<<<<<< HEAD
     font-size: 0.875rem;
 <<<<<<< HEAD
 }
 
 =======
+=======
+    font-family: 'Montserrat', sans-serif;
+>>>>>>> a12135819b80b9f07236ce363efede4a87260aa3
     background-color: #7C8A9D;
 }
 
 .mainPer{
-    background: url(../../assets/img/bgsite.png) no-repeat center center; 
+    background: url(../img/fondodepagina.png) no-repeat center center; 
     background-size: auto;
      overflow: hidden;
 }
@@ -109,10 +113,13 @@ body.login{
 =======
 .arfigcaption  figure figcaption{
     font-weight: 300;
+<<<<<<< HEAD
 
 >>>>>>> d3421ced6ffa4d54a36d9406b1f3616880f96e55
 .row.align-self-end div{
 
+=======
+>>>>>>> a12135819b80b9f07236ce363efede4a87260aa3
 }
 >>>>>>> 667e254ce391086647a3bfa269d69d91e3d20005
 =======
@@ -155,4 +162,26 @@ body.login{
     display:block;
     transition: all 0.25s;
   }
+<<<<<<< HEAD
 >>>>>>> d3421ced6ffa4d54a36d9406b1f3616880f96e55
+=======
+
+.row-fondo {
+    background-color: rgba(89, 157, 217,0.7);
+    border-radius: 20px;
+    height: 250px;
+}
+
+.text-boot{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.row-fondo-pre {
+    background-color: rgba(89, 157, 217,0.7);
+    border-radius: 20px;
+    background-size: auto;
+     overflow: hidden;
+}
+>>>>>>> a12135819b80b9f07236ce363efede4a87260aa3

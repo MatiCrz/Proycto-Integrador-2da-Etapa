@@ -1,0 +1,29 @@
+.bg_color {
+    background-color: cadetblue;
+    color: aliceblue;
+    background-size: cover;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 25px;
+}
+
+ 
+.bg_img {
+    background-image: url(/assets/img/pag-Inicio/img-bannerpresentación/cody-globodetexto.png);
+}
+
+.txt_banner {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+
+.Cody {
+    max-height: 80%;
+    width: 180%;
+    position: relative;
+    top: 30px;
+    right: 45px;
+}

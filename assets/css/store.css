@@ -1,17 +1,23 @@
+body {
+
+    background-color: #7C8A9D;
+    background: url(/assets/img/fondodepagina.png) no-repeat center center; 
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+   
+}
+
 .container{
 
     
 }
 .bg_img{
     
-    background-image: url(/assets/img/paginadetienda/bannertienda/bannerfondo.png);
-   
+    background-image: url(/assets/img/pag-tienda/img-barradecategoriasdeproductos/fondo-barradecategoriasdeproductos.png);
+    
 }
     
-.bg_img img{
-   
-}
-
 .bg_banner{
     background-size: cover;
     text-align: center;
@@ -25,7 +31,7 @@
     position: relative;
     top: 150px;
     right: -190px;
-
+    color: azure;
 
 }
 
@@ -66,9 +72,13 @@
     
 }
 .logo{
-    height:1px;
-    padding: 10px;
-    display: flex;
+    width: 360%;
+    padding: 15%;
+
+  
+   
+  
+    
 }
 
 .carta{
@@ -85,12 +95,14 @@
 .titulocarta{
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    color: azure;
 }
 .descripcioncarta{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     position: relative;
     top: -5px;
+    color: azure;
    
 }
 .gorra{
@@ -107,6 +119,7 @@
     position: relative;
     top: 0px;
     right: -30px;
+    color: azure;
 
 
 }
@@ -117,6 +130,7 @@
     font-family: 'Montserrat', sans-serif;
     align-items: center;
     width: 130px;
+    color: azure;
 }
 .agregaracarrito{
     background-color: #1445A6;
@@ -143,6 +157,7 @@
     position: relative;
     top: -10px;
     right: -40px;
+    color: azure;
 
     
 }
