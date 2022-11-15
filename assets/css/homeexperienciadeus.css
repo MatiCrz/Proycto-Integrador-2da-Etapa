@@ -6,25 +6,25 @@
 }
 
 .card-exp-usuario {
-  background-color: #599DD9;
-  border-radius: 20px;
-  background-size:cover;
-  align-items: center;
-  margin-bottom: 30px;
-}
+    background-color: #599DD9;
+    border-radius: 20px;
+    background-size:cover;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 
 .parrafo_xp_card{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-  color: aliceblue;
-  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: aliceblue;
+    
 }
 .titulo_xp_card {
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  font-size: 17px;
-  color: aliceblue;
-  
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: aliceblue;
+    
 }
 .txt_carta{
   border-radius: 20px;
