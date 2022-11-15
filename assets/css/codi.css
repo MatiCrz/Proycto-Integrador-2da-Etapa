@@ -1,34 +1,22 @@
-body {
-    
-    font-size: 0.875rem;
-    color: white;
-    background-image: url(/assets/img/bgsite.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
 .bg_color {
-    background-color:  cadetblue;
+    background-color: cadetblue;
     color: aliceblue;
     background-size: cover;
     border-radius: 10px;
     width: 90%;
     height: 100%;
+    margin-bottom: 25px;
 }
 
  
 .bg_img {
-    background-image: url(/RAMAGIT/Proyecto-Integrador-2da-Etapa/assets/img/bgsite.png);
-    height: 100px;
+    background-image: url(/assets/img/pag-Inicio/img-bannerpresentación/cody-globodetexto.png);
 }
 
 .txt_banner {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 150%;
-    position: relative;
-    top:20px;
+    margin: auto;
 }
 
 
