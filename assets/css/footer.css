@@ -1,9 +1,10 @@
 .boton{
     background-color: #599dd9;
-    border-radius: 15%;
+    border-radius: 15px;
     border: none;
-    margin-left: 40%;
-    padding: 4%;
+    margin-left: 40px;
+    padding: 4px;
+    margin:5px;
 }
 
 footer{

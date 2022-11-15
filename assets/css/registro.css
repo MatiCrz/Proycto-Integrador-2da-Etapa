@@ -20,6 +20,7 @@ body {
     background-image: url(../img/pag-registro/img-barraderegistro/fondo-debarradetitulo.png);
     background-size: 450px 85px;
     
+    
 }
 
 .txt_banner{
@@ -703,7 +704,11 @@ footer{
 
 
 
-
+.mover_cody{
+    
+    margin-left: 55px;
+    margin-top: 38px;
+}
 
 
 

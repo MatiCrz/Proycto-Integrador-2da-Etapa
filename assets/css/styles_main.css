@@ -1,11 +1,11 @@
 /* selectores principales - generales */
 body {
-    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
     background-color: #7C8A9D;
 }
 
 .mainPer{
-    background: url(../../assets/img/bgsite.png) no-repeat center center; 
+    background: url(../img/fondodepagina.png) no-repeat center center; 
     background-size: auto;
      overflow: hidden;
 }
@@ -24,6 +24,10 @@ body {
     height: 50px;
     width: 340px;
     padding-left: 20px;
+}
+.imglogoc{
+    height: 100px;
+    width: 480px;
 }
 /* nav */
 .serachBar{
@@ -72,9 +76,6 @@ body {
 
 .arfigcaption  figure figcaption{
     font-weight: 300;
-
-.row.align-self-end div{
-
 }
 
  .arfigcaption figure figcaption { 
@@ -86,3 +87,23 @@ body {
     display:block;
     transition: all 0.25s;
   }
+
+.row-fondo {
+    background-color: rgba(89, 157, 217,0.7);
+    border-radius: 20px;
+    height: 250px;
+}
+
+.text-boot{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.row-fondo-pre {
+    background-color: rgba(89, 157, 217,0.7);
+    border-radius: 20px;
+    background-size: auto;
+     overflow: hidden;
+}
