@@ -1,8 +1,15 @@
 /* selectores principales - generales */
 body {
     color: white;
+<<<<<<< HEAD
     background-image: url(/assets/img/Pagina_de_Login/Fondo_de_pagina.png);
     background-size: cover;
+=======
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/paginadetienda/fondo.png);
+    background-size: cover; 
+>>>>>>> d3421ced6ffa4d54a36d9406b1f3616880f96e55
     background-repeat: no-repeat;
     background-position: center;
     

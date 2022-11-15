@@ -10,10 +10,8 @@ body {
 
 .mainPer{
     background: url(../../assets/img/bgsite.png) no-repeat center center; 
-
     background-size: auto;
      overflow: hidden;
-
 }
 >>>>>>> 667e254ce391086647a3bfa269d69d91e3d20005
 
@@ -100,13 +98,19 @@ body.login{
 }
 .serachBar_button svg{
     color: #fff;
-}
+} 
 .imgPer{
     height: 35px;
     width: 35px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.arfigcaption  figure figcaption{
+    font-weight: 300;
+
+>>>>>>> d3421ced6ffa4d54a36d9406b1f3616880f96e55
 .row.align-self-end div{
 
 }
@@ -116,18 +120,12 @@ body.login{
 >>>>>>> Matías-Nieto
 >>>>>>> dev
 
-/* nav */
-
-/* main */
-
-/* section */
-
-/* articles */
-
-/* footer */
-/* **************** */
+ .arfigcaption figure figcaption { 
+    transition: all 0.25s;
+  }
 
 
+<<<<<<< HEAD
 
 
 /* ********************* */
@@ -152,3 +150,9 @@ body.login{
 
 /* footer */
 /* **************** */
+=======
+ .icoNosotros:hover{
+    display:block;
+    transition: all 0.25s;
+  }
+>>>>>>> d3421ced6ffa4d54a36d9406b1f3616880f96e55

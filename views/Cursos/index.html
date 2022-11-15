@@ -5,36 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/cursos.css">
+    <link rel="stylesheet" href="/assets/css/general.css">
 </head>
 
 <body>
- <div class="container bg_img">
-    <div class="row"><div class="col">h1 Frontend Básico</div>
-    <div class="col"><img src="/assets/img/Pagina de Curso/imagenes - banner de titulo/mapa de avance.png""></div></div>
- </div>
-    <div class="container">
+    
+    <div class="container bg_img banner bg_color mt-5">
         <div class="row">
-            <div class="col">
-                <button>HTML</button>
-                <button>CSS</button>
-                <button>JS</button>
+            <div class="col-4">
+                <h1 class="txt_banner texto_banner">Frontend Básico</h1>
+            </div>
+            <div class="col-8">
+                <div><img class="img_banner" src="/assets/img/Pagina de Curso/imagenes_banner de titulo/mapa de avance.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="row">
+            <div class="col-6 mt-5 ">
+                <div class="row">
+                    <div class="col-2 bg_color">
+                        <button class="btn btn-bg">HTML</button>
+                    </div>
+                    <div class="col-2 bg_color">
+                        <button class="btn btn-bg">CSS</button>
+                    </div>
+                    <div class="col-2 bg_color">
+                        <button class="btn btn-bg">JS</button>
+                    </div>
+                </div>
+            </div>
+
+        <div class="row">
+            <div class="col-3 nav_video">
+                <div class="row">
+                    <iframe  src="https://www.youtube.com/embed/as1opL254NA" title="Lógica de Programación 👩‍💻 Aprende a programar en 10 minutos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videodamian"></iframe>
+                    <p>Capítulo 1 Introducción</p>
+                    <hr>
+                </div>
+                <div class="row">
+                    <iframe  src="https://www.youtube.com/embed/as1opL254NA" title="Lógica de Programación 👩‍💻 Aprende a programar en 10 minutos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videodamian"></iframe>
+                    <p>Capítulo 2 Estructura básica</p>
+                    <hr>
+                </div>
+                <div class="row">
+                    <iframe  src="https://www.youtube.com/embed/as1opL254NA" title="Lógica de Programación 👩‍💻 Aprende a programar en 10 minutos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videodamian"></iframe>
+                    <p> Elementos y etiquetas HTML</p>
+                    <hr>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-3">
-            <iframe  src="https://www.youtube.com/embed/as1opL254NA" title="Lógica de Programación 👩‍💻 Aprende a programar en 10 minutos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videodamian"></iframe>
-            <p>Capítulo 1 Introducción</p>
-            <hr>
-            <iframe  src="https://www.youtube.com/embed/as1opL254NA" title="Lógica de Programación 👩‍💻 Aprende a programar en 10 minutos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videodamian"></iframe>
-            <p>Capítulo 2 Estructura básica</p>
-            <hr>
-            <iframe  src="https://www.youtube.com/embed/as1opL254NA" title="Lógica de Programación 👩‍💻 Aprende a programar en 10 minutos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videodamian"></iframe>
-            <p> Elementos y etiquetas HTML</p>
-            <hr>
-            </div>
+
         </div>
      </div>
 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

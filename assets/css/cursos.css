@@ -1,20 +1,53 @@
-.container{
-    background: #599dd9;
-    width: 250px;
-    margin: 20px auto;
-    height: 1000px;
-    display: grid;
-    border-radius: 8%;
-    margin: 60px;
-    border-radius: 30px;
-    align-items: center;
-    }
-    .bg_img{
-        background-image: url(/assets/img/Pagina_de_Login/imagenes_barra_de_LOGIN/fondo\ de\ barra\ de\ titulo\ LOGIN.png);
-    }
 
-    .videodamian{
-        width: 90%;
-        height: 70%;
-        padding:70px 3% 30px;
-    }
+.texto_banner{
+    margin-top: 15%;
+}
+
+.bg_color{
+    background-color: #599dd9;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.nav_video{
+    background-color: #599dd9;
+}
+
+.bg_img{
+    background-image: url(/assets/img/Pagina_de_Login/imagenes_barra_de_LOGIN/fondo\ de\ barra\ de\ titulo\ LOGIN.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.img_banner{
+    height: 50%;
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.btn-bg{
+    color: aliceblue;
+    background-color: #599dd9;
+    border-radius: 10%;
+    margin: 0px 20px;
+}
+
+
+/*
+iframe{
+    border: 2px solid green;
+}
+
+.container{
+    border: 2px solid orange;
+}
+
+.col-2{
+    border: 2px solid red;
+}
+
+button{
+    border: 2px solid blue;
+}
+*/
