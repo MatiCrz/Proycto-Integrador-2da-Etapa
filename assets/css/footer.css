@@ -1,13 +1,13 @@
-.boton{
+.boton_footer{
     background-color: #599dd9;
     border-radius: 15px;
     border: none;
+    padding: 15px;
+    text-align: center;
     margin-left: 40px;
-    padding: 4px;
-    margin:5px;
 }
 
-footer{
+.bg_footer{
     background-color: #1445a6;
     border-radius: 20px 20px 20px 20px;
 }
@@ -36,8 +36,14 @@ footer{
     margin: 0px;
     padding: 0px;
 }
-.txt_parrafo{
+.txt_footer{
     font-family: 'Montserrat', sans-serif;
     color: white; 
+}
 
+.txt_footer_msj{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+    font-size: small;
+    margin-top: 10px;
 }
