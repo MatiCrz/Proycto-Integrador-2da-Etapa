@@ -50,7 +50,7 @@
 
 
 body {
-    background-image: url(img/PaginadeUsuarioPerfil/Fondo_de_pagina.png);
+    background-image: url(img/PaginadeUsuarioPerfil/Fondo_de_pagina.png) no-repeat  bottom center/100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
