@@ -1,15 +1,13 @@
 /* selectores principales - generales */
 body {
-    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
     background-color: #7C8A9D;
 }
 
 .mainPer{
-    background: url(../../assets/img/bgsite.png) no-repeat center center; 
-
+    background: url(../img/fondodepagina.png) no-repeat center center; 
     background-size: auto;
      overflow: hidden;
-
 }
 
 /* ********************* */
@@ -66,44 +64,25 @@ body {
 }
 .serachBar_button svg{
     color: #fff;
-}
+} 
 .imgPer{
     height: 35px;
     width: 35px;
 }
 
+.arfigcaption  figure figcaption{
+    font-weight: 300;
+
 .row.align-self-end div{
 
 }
 
-/* nav */
-
-/* main */
-
-/* section */
-
-/* articles */
-
-/* footer */
-/* **************** */
+ .arfigcaption figure figcaption { 
+    transition: all 0.25s;
+  }
 
 
-
-
-/* ********************* */
-/* PAGINA LOGIN */
-
-body.login{
- /*  */
-}
-
-/* nav */
-
-/* main */
-
-/* section */
-
-/* articles */
-
-/* footer */
-/* **************** */
+ .icoNosotros:hover{
+    display:block;
+    transition: all 0.25s;
+  }
