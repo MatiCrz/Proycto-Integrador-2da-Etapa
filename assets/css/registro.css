@@ -1,9 +1,14 @@
-body{
 
-   background-color: #7C8A9D;
-   background: url(../img/fondodepagina.png) no-repeat center center;
-   background-size: auto;
-   overflow: hidden;
+
+body {
+    
+    font-size: 0.875rem;
+    color: white;
+    background-image: url(../../assets/img/fondodepagina.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 .bg-banner{
@@ -648,6 +653,57 @@ body{
 
 
 }
+
+
+
+
+
+.boton{
+    background-color: #599dd9;
+    border-radius: 15%;
+    border: none;
+    margin-left: 40%;
+    padding: 4%;
+}
+
+footer{
+    background-color: #1445a6;
+    border-radius: 20px 20px 20px 20px;
+}
+.icon_facebook{
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.icon_instagram{
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.icon_twitter{
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.icon_youtube{
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.txt_parrafo{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+
+}
+
+
+
+
 
 
 
