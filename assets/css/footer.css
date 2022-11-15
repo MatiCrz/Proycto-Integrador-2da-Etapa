@@ -1,0 +1,43 @@
+.boton{
+    background-color: #599dd9;
+    border-radius: 15px;
+    border: none;
+    margin-left: 40px;
+    padding: 4px;
+    margin:5px;
+}
+
+footer{
+    background-color: #1445a6;
+    border-radius: 20px 20px 20px 20px;
+}
+.icon_facebook{
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.icon_instagram{
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.icon_twitter{
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.icon_youtube{
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.txt_parrafo{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+
+}
