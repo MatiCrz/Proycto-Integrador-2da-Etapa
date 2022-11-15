@@ -60,13 +60,13 @@ body{
 }
 
 
-.boton{
+.boton_login{
     color: aliceblue;
     border-radius: 15px;
     padding: 3% 2%;
 }
 
-.boton img{
+.boton_login img{
     max-height: 30px;
 }
 
