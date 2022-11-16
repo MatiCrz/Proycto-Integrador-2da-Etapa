@@ -34,7 +34,7 @@ body{
 }
 
 .bg-imagen{
-    background-image: url(/assets/img/pag-login/img-barradelogin/fondo-debarradetitulologin.png);
+    background-image: url(../../assets/img/pag-login/img-barradelogin/fondo-debarradetitulologin.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
