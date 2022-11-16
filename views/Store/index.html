@@ -14,11 +14,122 @@
     <link rel="icon" href="/assets/icon/logo bootcampAR.png" type="Imagen/png">
     <link rel="stylesheet" href="/assets/css/styles_main.css">
     <link rel="stylesheet" href="/assets/css/store.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
     <title>Tienda Bootcampar</title>
 </head>
 <body>
-    <div class="fondo"> 
+  <header>
+    <div class="container">
+        <div class="rowPers row align-items-center">
+            <div class="col-md-4 mt-4 mb-4 mt-md-0 mb-md-0"><a href="/index.html"><img class="imglogo img-fluid"
+              src="../../assets/img/pag-Inicio/img-barradenavegacion/logo.png"
+              alt="Logo"></a></div>
+
+            <div class="col-md-3 mb-4 mb-md-0">
+                <form action="/."
+                      method="get">
+                    <div class="serachBar">
+                        <input type="text"
+                               class="p-1 serachBar_input"
+                               name="search"
+                               id="search"
+                               placeholder="Buscar">
+                        <button type="submit"
+                                class="serachBar_button">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="18"
+                                 height="18"
+                                 fill="currentColor"
+                                 class="bi bi-search"
+                                 viewBox="0 0 16 16">
+                                <path
+                                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <!-- nav -->
+                <nav>
+                    <div class="row justify-content-between justify-content-md-start arfigcaption">
+                        <div class="col-md-2 icoNosotros">
+                            <figure onmouseover="changeClass('nosotros')"
+                                    onmouseout="restClass('nosotros')"
+                                    class="text-center  mt-1 fig"
+                                    title="Nosotros"><a href="https://mountaincode.com.ar/presentacion-2/"
+                                   target="_self"><img class="img-fluid imgPer"
+                                         src="../../assets/img/pag-Inicio/img-barradenavegacion/nosotros.png"
+                                         alt="Nosotros"></a>
+                                <figcaption id="nosotros"
+                                            class="ms-md-2 position-absolute d-none fw-lighter text-light">
+                                    Nosotros
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-2">
+                            <figure onmouseover="changeClass('curso')"
+                                    onmouseout="restClass('curso')"
+                                    class="text-center mt-1 fig"
+                                    title="Cursos"><a href="../Cursos/index.html"
+                                   target="_self"><img class="img-fluid imgPer "
+                                         src="../../assets/img/pag-Inicio/img-barradenavegacion/cursos.png"
+                                         alt="Cursos"></a>
+                                <figcaption id="curso"
+                                            class="ms-md-3 position-absolute d-none fw-lighter text-light">
+                                    Cursos
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-2">
+                            <figure onmouseover="changeClass('compras')"
+                                    onmouseout="restClass('compras')"
+                                    class="text-center mt-1 fig"
+                                    title="Compras"><a href="../Store/index.html"
+                                   target="_self"><img class="img-fluid imgPer"
+                                         src="../../assets/img/pag-Inicio/img-barradenavegacion/cart.png"
+                                         alt="Compras"></a>
+                                <figcaption id="compras"
+                                            class="ms-md-3 position-absolute d-none fw-lighter text-light">
+                                    Compras
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-2">
+                            <figure onmouseover="changeClass('noti')"
+                                    onmouseout="restClass('noti')"
+                                    class="text-center mt-1 fig"
+                                    title=""><a href="#"
+                                   target="_self"><img class="img-fluid imgPer"
+                                         src="../../assets/img/pag-Inicio/img-barradenavegacion/noti.png"
+                                         alt=""></a>
+                                <figcaption id="noti"
+                                            class="ms-md-3 position-absolute d-none fw-lighter text-light">
+                                    Avisos
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-2">
+                            <figure onmouseover="changeClass('perfil')"
+                                    onmouseout="restClass('perfil')"
+                                    class="text-center mt-1 fig"
+                                    title="Perfil"><a href="../Perfil/index.html"
+                                   target="_self"><img class="img-fluid imgPer"
+                                         src="../../assets/img/pag-Inicio/img-barradenavegacion/perfil.png"
+                                         alt="Perfil"></a>
+                                <figcaption id="perfil"
+                                            class="ms-md-3 position-absolute d-none fw-lighter text-light">
+                                    Perfil
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </nav>
+                <!-- fin-aav  -->
+            </div>
+        </div>
     </div>
+</header>
     <!--barra navbar-->
     <header>
       <div class="container">
@@ -156,11 +267,112 @@
              <div class="col txt_buttoncarrito"><button class="agregaracarrito">Agregar a Carrito</button></div>
             </div>
            </div>
-                     
     </div>
-     
-    </div>
-    <div class="container"></div>
+    
+    <footer class="container mb-2 bg_footer mt-5">
+      <!--footer parte superior -->
+      <div class="row">
+          <div class="col">
+              <div class="row">
+                  <div class="col mt-3">
+                      <button class="boton_footer txt_footer">Más info</button>
+                  </div>
+                  <div class="col mt-3">
+                      <div class="form-floating">
+                          <input class="form-control"
+                                 placeholder="Leave a comment here"
+                                 id="floatingTextarea"></input>
+                          <label for="floatingTextarea">Mail</label>
+                      </div>
+                  </div>
+
+                  <div class="col mt-2">
+                      <p class="txt_footer_msj">Dejanos tu mail y te enviaremos más información sobrenuestros cursos </p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="row">
+                  <div class="col mt-4 text-center">
+                      <a class="txt_footer"
+                      style="text-decoration: none;"
+                      href="/index.html"> Home </a>
+                  </div>
+                  <div class="col mt-4 text-center ">
+                      <a class="txt_footer"
+                         style="text-decoration: none;"
+                         href="/views/Cursos/index.html"> Cursos </a>
+                  </div>
+                  <div class="col mt-4 text-center ">
+                      <a class="txt_footer"
+                         style="text-decoration: none;"
+                         href="/views/Store/index.html"> Tienda </a>
+                  </div>
+                  <div class="col mt-4 text-center ">
+                      <a class="txt_footer"
+                         style="text-decoration: none;"
+                         href="/views/Perfil/index.html"> Perfil </a>
+                  </div>
+                  <div class="col mt-4 text-center ">
+                      <a class="txt_footer"
+                         style="text-decoration: none;"
+                         href="/views/Login/login.html"> Login </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!--footer parte inferior-->
+
+      
+      <div class="row">
+          <div class="col">
+              <div class="row">
+                  <div class="col mt-3">
+                      <p class="txt_footer"
+                         style="text-decoration: none; text-align: center;"> © Copyright 2022 - Argentina</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="row">
+                  <div class="col mb-4">
+                      <a href="https://www.facebook.com/">
+                          <img class="icon_facebook rounded mx-auto d-block"
+                               src="/assets/img/pag-Inicio/img-footer/facebook-logo.png"
+                               alt="">
+                      </a>
+                  </div>
+                  <div class="col">
+                      <a href="https://www.instagram.com/">
+                          <img class="icon_instagram rounded mx-auto d-block"
+                               src="/assets/img/pag-Inicio/img-footer/instagram-logo.png"
+                               alt="">
+                      </a>
+                  </div>
+                  <div class="col">
+                      <a href="https://twitter.com/">
+
+                          <img class="icon_twitter rounded mx-auto d-block"
+                               src="/assets/img/pag-Inicio/img-footer/twitter-logo.png"
+                               alt="">
+                      </a>
+                  </div>
+                  <div class="col">
+                      <a href="https://www.youtube.com/">
+                          <img class="icon_youtube rounded mx-auto d-block"
+                               src="/assets/img/pag-Inicio/img-footer/youtube-logo.png"
+                               alt="">
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

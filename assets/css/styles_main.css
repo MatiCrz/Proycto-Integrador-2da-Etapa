@@ -13,21 +13,13 @@ body {
 /* ********************* */
 /* PAGINA INDEX */
 /* Header */
-.container-fluid{
-    
-}
-.rowPers {
-    height: 150px;
-}
+
+
 
 .imglogo{
     height: 50px;
     width: 340px;
     padding-left: 20px;
-}
-.imglogoc{
-    height: 100px;
-    width: 480px;
 }
 /* nav */
 .serachBar{
@@ -97,7 +89,6 @@ body {
 .text-boot{
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 34px;
     font-weight: 700;
 }
 

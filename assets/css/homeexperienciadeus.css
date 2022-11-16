@@ -1,79 +1,55 @@
-body {
-    color: white;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/assets/img/fondodepagina.png);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
+.txt_parrafo {
+  position: absolute;
+  top: 25%;
+  font-family: 'Montserrat', sans-serif;
+  left: 17%;
 }
 
-  .container-fluid2 {
-   position: relative;
-   align-items: center;
-
-  }
-
-  .txt_bienvenida {
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    top: 30px;
-    left: 26%;
-    font-size: 30px;
-    
-
-
-  }
-  .txt_parrafo {
-    position: absolute;
-    top: 25%;
-    font-family: 'Montserrat', sans-serif;
-    left: 17%;
-
-
-
-  }
-
-.row {
-    background-color: #599DD9;
+.card-exp-usuario {
+    background-color: rgba(89, 157, 217,0.7);
     border-radius: 20px;
     background-size:cover;
     align-items: center;
+    margin-bottom: 30px;
   }
 
-.container-fluid{
-    margin-top: 700px;
-  }
-
-.parrafo{
+.parrafo_xp_card{
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
+    color: aliceblue;
     
 }
-.titulo {
+.titulo_xp_card {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    font-size: 17px;
+    color: aliceblue;
+    
 }
 .txt_carta{
-    border-radius: 20px;
-    
-    
-}
-
-.txt_titulo {
-    font-family: 'Poppins', sans-serif;
-    font-size:x-large;
-    text-align: center;
-}
-.button{
-    background: none;
-    border: none;
-    color: azure;
+  border-radius: 20px;
+  position: relative;
+  top: 40px;
 
 }
-.container {
-    
 
-;
-    
+.txt_titulo_exp_us {
+  font-family: 'Poppins', sans-serif;
+  font-size:x-large;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  color: aliceblue;
+}
+.button_xp_us {
+  background: none;
+  border: none;
+  color: azure;
+  margin-top: 120px;
+}
+
+.video{
+position: relative;
+top: 2px;
+
 }
