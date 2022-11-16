@@ -1,17 +1,11 @@
-.container{
 
-    
-}
+
 .bg_img{
     
-    background-image: url(/assets/img/paginadetienda/bannertienda/bannerfondo.png);
-   
+    background-image: url(/assets/img/pag-tienda/img-barradecategoriasdeproductos/fondo-barradecategoriasdeproductos.png);
+    
 }
     
-.bg_img img{
-   
-}
-
 .bg_banner{
     background-size: cover;
     text-align: center;
@@ -25,18 +19,12 @@
     position: relative;
     top: 150px;
     right: -190px;
-
-
-}
-
-.col-7 {
-
-    height: 80px;
-    text-align: center;
-    display: flex;
-    align-items: center;
+    color: azure;
 
 }
+
+
+
 .boton {
     font-family: 'Montserrat', sans-serif;
     background-color: #7b7d80;
@@ -66,9 +54,8 @@
     
 }
 .logo{
-    height:1px;
-    padding: 10px;
-    display: flex;
+    width: 360%;
+    padding: 15%;
 }
 
 .carta{
@@ -77,20 +64,21 @@
     height: 20%;
     border-radius: 20px;
     display: inline-block;
-    margin: 30px;
-    position: relative;
-    top: 200px;
-    right: -150px;
+    margin-top: 200px;
+    margin-left: 100px;
+
 }
 .titulocarta{
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    color: azure;
 }
 .descripcioncarta{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     position: relative;
     top: -5px;
+    color: azure;
    
 }
 .gorra{
@@ -107,6 +95,7 @@
     position: relative;
     top: 0px;
     right: -30px;
+    color: azure;
 
 
 }
@@ -117,6 +106,7 @@
     font-family: 'Montserrat', sans-serif;
     align-items: center;
     width: 130px;
+    color: azure;
 }
 .agregaracarrito{
     background-color: #1445A6;
@@ -143,15 +133,7 @@
     position: relative;
     top: -10px;
     right: -40px;
+    color: azure;
 
     
 }
-.botonprecio{
-    
-    
-   
-}
-
-
-margin boton (para abajo)
-margin top (para arriba)
