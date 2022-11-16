@@ -13,12 +13,8 @@ body {
 /* ********************* */
 /* PAGINA INDEX */
 /* Header */
-.container-fluid{
-    
-}
-.rowPers {
-    height: 150px;
-}
+
+
 
 .imglogo{
     height: 50px;
@@ -72,9 +68,6 @@ body {
 
 .arfigcaption  figure figcaption{
     font-weight: 300;
-
-.row.align-self-end div{
-
 }
 
  .arfigcaption figure figcaption { 
@@ -86,3 +79,22 @@ body {
     display:block;
     transition: all 0.25s;
   }
+
+.row-fondo {
+    background-color: rgba(89, 157, 217,0.7);
+    border-radius: 20px;
+    height: 250px;
+}
+
+.text-boot{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.row-fondo-pre {
+    background-color: rgba(89, 157, 217,0.7);
+    border-radius: 20px;
+    background-size: auto;
+     overflow: hidden;
+}

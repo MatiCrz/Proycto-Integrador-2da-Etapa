@@ -1,0 +1,135 @@
+
+.container{
+background: rgba(89, 157, 217, 50%);
+color: white;
+width: 43%;
+margin: 30px auto;
+height: 55%;
+display: grid;
+border-radius: 45px;
+margin: 60px;
+
+}
+
+.imagenvideo{
+padding:10px 3px 20px;   
+width:100%;
+height:85%;
+border-radius: 30px;
+
+}
+
+.tiger{
+padding: 50px 10px 10px;
+width: 150%;
+
+}
+
+
+ 
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 90px);
+grid-template-rows: repeat(3, 110px);
+grid-gap: 5px;
+justify-content: end;
+align-content:start;
+padding: 40px;
+   
+}
+  
+.card {
+align-items: flex-end;
+align-items: center;
+display: flex;
+font-family: Arial;
+width: 100%;
+height: 100%;
+font-weight: bold;
+background-color: #455973;
+border-radius: 15px;
+   
+}
+
+
+.titulos{
+font-size: 10px;
+}
+
+hr {
+position: relative;
+border: none;
+height: 8%;
+width: 300%;
+background: #ffffff;
+margin-bottom: 40px; 
+top: -13px; 
+}
+
+.ultimaparte{
+padding: 10px;
+border-radius: 35px;  
+width: 250%;
+height: 65%;
+margin: 0 -50px  ;
+padding-bottom: 30px;
+margin-bottom: 10px;
+background-color: #455973;
+position:relative;
+bottom: -24px;
+    
+}
+.profesores{
+background-color:#5399f3;
+width:100px; 
+font-size:20px;
+text-decoration: none;
+padding: 5px 15px;
+border-radius: 6px;
+color: #000000;
+font-weight: 600;
+background:linear-gradient(180deg, #8dc8e6 0%, #f2f8fa 100%);
+position: relative;
+right: -20px;
+top: 30px;
+}
+
+.titulo{
+font-size: 20px;
+text-align:center;
+font-weight:600;
+}
+
+
+.linea{
+display: inline-block;
+color: #FFFFFF;
+border-radius: 10px;
+height: 25px;
+margin-bottom: 2px;
+font-size: 11px;
+font-style: oblique;
+font-weight: bold;
+position:relative;
+}
+
+.linea2{
+display: inline-block;
+color: #FFFFFF;
+border-radius: 9px;
+height: 25px;
+margin-bottom: 2px;
+font-size: 14px;
+font-style: oblique;
+font-weight: 500;
+position:relative;
+right: -45px;
+top: -5px;
+}
+
+.imagen{
+width:55%;
+height:350px;
+border-radius: 30px;
+margin-top:-680px;
+}
