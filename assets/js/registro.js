@@ -1,4 +1,5 @@
 function registro(){
+
     //Guarda repuestas del input
     let nombre = ingresar_nombre.value
     let apellido = ingresar_apellido.value
