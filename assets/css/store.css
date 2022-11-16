@@ -3,7 +3,7 @@ body {
     background-color: #7C8A9D;
     background: url(/assets/img/fondodepagina.png) no-repeat center center; 
     background-size: cover;
-    overflow: hidden;
+    
     background-position: center;
    
 }
@@ -37,10 +37,7 @@ body {
 
 .col-7 {
 
-    height: 80px;
-    text-align: center;
-    display: flex;
-    align-items: center;
+ 
 
 }
 .boton {
