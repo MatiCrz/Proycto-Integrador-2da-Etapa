@@ -3,15 +3,9 @@ body {
     background-color: #7C8A9D;
     background: url(/assets/img/fondodepagina.png) no-repeat center center; 
     background-size: cover;
-    overflow: hidden;
     background-position: center;
-   
 }
 
-.container{
-
-    
-}
 .bg_img{
     
     background-image: url(/assets/img/pag-tienda/img-barradecategoriasdeproductos/fondo-barradecategoriasdeproductos.png);
@@ -35,14 +29,7 @@ body {
 
 }
 
-.col-7 {
 
-    height: 80px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-
-}
 .boton {
     font-family: 'Montserrat', sans-serif;
     background-color: #7b7d80;
@@ -74,11 +61,6 @@ body {
 .logo{
     width: 360%;
     padding: 15%;
-
-  
-   
-  
-    
 }
 
 .carta{
@@ -87,10 +69,9 @@ body {
     height: 20%;
     border-radius: 20px;
     display: inline-block;
-    margin: 30px;
-    position: relative;
-    top: 200px;
-    right: -150px;
+    margin-top: 200px;
+    margin-left: 100px;
+
 }
 .titulocarta{
     text-align: center;
@@ -161,12 +142,3 @@ body {
 
     
 }
-.botonprecio{
-    
-    
-   
-}
-
-
-margin boton (para abajo)
-margin top (para arriba)
