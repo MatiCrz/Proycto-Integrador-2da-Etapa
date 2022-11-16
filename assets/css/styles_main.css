@@ -1,12 +1,13 @@
 /* selectores principales - generales */
 body {
     font-family: 'Montserrat', sans-serif;
+
     background-color: #7C8A9D;
 }
 
 .mainPer{
     background: url(../img/fondodepagina.png) no-repeat center center; 
-    background-size: auto;
+    background-size: cover;
      overflow: hidden;
 }
 
