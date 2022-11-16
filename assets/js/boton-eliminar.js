@@ -1,6 +1,6 @@
 function eliminar(){
 
-
+    alert("Intentar con los siguientes valores correo: Agus_25@hotmail.com / contraseña: 123")
     var result = confirm("Esta seguro que quiere eliminar esta cuenta?");
     
     if (result) {
@@ -71,4 +71,8 @@ function eliminar(){
         alert("Eliminacion de cuenta abortada");
     }
 
+}
+
+function actualizacion(){
+    window.location.href = "./Login/update.html"
 }

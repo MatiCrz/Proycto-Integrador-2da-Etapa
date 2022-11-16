@@ -13,7 +13,7 @@ function login() {
     if (reg == "Agus25") {
         if (Agus25.contraseña == pas) {
             repUser.append("Bienvenida Agus25");
-            window.location.href = "index.html"
+            window.location.href = "./Perfil/Agus25.html"
         }
         else if (pas == "") {
             repPass.append("Ingresa una contraseña");
@@ -26,7 +26,7 @@ function login() {
     if (reg == "Raul36") {
         if (Raul36.contraseña == pas) {
             repUser.append("Bienvenida Raul36");
-            window.location.href = "Raul36.html";
+            window.location.href = "./Perfil/Raul36.html";
         } 
         else if (pas == "") {
             rep.append("Ingresa una contraseña");
@@ -39,7 +39,7 @@ function login() {
     if (reg == "Bri58") {
         if (Bri58.contraseña == pas) {
             repUser.append("Bienvenida Bri58");
-            window.location.href = "Bri58.html";
+            window.location.href = "./Perfil/Bri58.html";
       }
       else if (pas == "") {
         rep.append("Ingresa una contraseña");
@@ -51,7 +51,7 @@ function login() {
     if (reg == "Manu99") {
       if (Manu99.contraseña == pas) {
         repUser.append("Bienvenida Manu99");
-        window.location.href = "Manu99.html";
+        window.location.href = "./Perfil/Manu99.html";
       } else if (pas == "") {
         rep.append("Ingresa una contraseña");
       } else {
@@ -62,7 +62,7 @@ function login() {
     if (reg == "Tom22") {
         if (Tom22.contraseña == pas) {
             repUser.append("Bienvenida Tom22");
-            window.location.href = "Tom22.html";
+            window.location.href = "./Perfil/Tom22.html";
         } 
         
         else if (pas == "") {
