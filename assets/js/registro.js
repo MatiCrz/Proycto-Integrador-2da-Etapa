@@ -1,19 +1,23 @@
 function registro(){
     //Guarda repuestas del input
-    let nombre = Nombre_registro.value
-    let apellido = Apellido_registro.value
-    let email = Email_registro.value
-    let nombre_usuario = N_usuario_registro.value
-    let contraseña = contraseña_registro.value
-    let Ccontraseña = contraseña_registro_confirmada.value
+    let nombre = ingresar_nombre.value
+    let apellido = ingresar_apellido.value
+    let email = ingresar_mail.value
+    let nombre_usuario = ingresar_usuario.value
+    let contraseña = ingresar_contraseña.value
+    let Ccontraseña = confirmar_contraseña.value
+    
 
     //Mensajes de campos
     let msj_nombre = document.getElementById("Nr_feedback")
     let msj_apellido = document.getElementById("Ap_feedback")
     let msj_email = document.getElementById("Email_respuesta")
     let msj_nombre_usuario = document.getElementById("Nu_feedback")
-    let msj_contraseña = document.getElementById("C_feedback")
+    let msj_contraseña = document.getElementById("Contraseña_respuesta")
     let msj_contraseña_confirmada = document.getElementById("CC_feedback")
+
+    
+
 
     //Verificacion los campos
     if(nombre == ""){

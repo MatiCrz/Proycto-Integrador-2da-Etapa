@@ -41,6 +41,7 @@ body {
     
 }
 
+
 .calendario{
 
     width: 38px;
@@ -48,7 +49,7 @@ body {
     opacity: 20%;
     margin-top: 18px;
 }
- .input_fechanac{
+ .input_nombre{
 
     margin-top: 20px
  }
@@ -178,16 +179,17 @@ body {
 
 .text_contraseña{
 
-    width: 383px;
+    width: 145px;
     height: 66px;
     font-size: 14px;
     font-family: 'montserrat', sans-serif;
     position: absolute;
-    margin-left: 15px;
-    margin-top: 0px;
     color: #343738;
     opacity: 20%;
     border-radius: 0px 18px 18px 0px;
+    margin-top: -48px;
+    margin-left: 50px;
+    
 
 
 
@@ -707,7 +709,7 @@ footer{
 .mover_cody{
     
     margin-left: 55px;
-    margin-top: 38px;
+    margin-top: 80px;
 }
 
 
