@@ -1,36 +1,54 @@
-.boton{
+.boton_footer{
     background-color: #599dd9;
-    border-radius: 15%;
+    border-radius: 15px;
     border: none;
-    margin-left: 40%;
-    padding: 4%;
+    padding: 15px;
+    text-align: center;
+    margin-left: 40px;
 }
 
-footer{
+.bg_footer{
     background-color: #1445a6;
-    border-radius: 10% 10% 0% 0%;
+    border-radius: 20px 20px 20px 20px;
 }
 .icon_facebook{
-    height: 35%;
+    height: 35px;
     max-height: 50px;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
+    
 }
 .icon_instagram{
-    height: 35%;
+    height: 35px;
     max-height: 50px;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 .icon_twitter{
-    height: 35%;
+    height: 35px;
     max-height: 50px;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 .icon_youtube{
-    height: 35%;
-    max-height: 50%;
-    margin: 0%;
-    padding: 0%;
+    height: 35px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.txt_footer{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+}
+
+.txt_footer_msj{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+    font-size: small;
+    margin-top: 10px;
+}
+
+.txt_footer_menu{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
 }
