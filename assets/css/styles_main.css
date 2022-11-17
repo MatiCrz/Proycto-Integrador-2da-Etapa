@@ -8,13 +8,17 @@ body {
 =======
 =======
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
 >>>>>>> a12135819b80b9f07236ce363efede4a87260aa3
+=======
+
+>>>>>>> 9f68d7d5e917fca9859d934689d264edacebbafe
     background-color: #7C8A9D;
 }
 
 .mainPer{
     background: url(../img/fondodepagina.png) no-repeat center center; 
-    background-size: auto;
+    background-size: cover;
      overflow: hidden;
 }
 >>>>>>> 667e254ce391086647a3bfa269d69d91e3d20005
