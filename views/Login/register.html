@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/assets/img/favicon.png" type="Imagen/png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
     <title>BootcampAr | Register</title>
-
-    <link rel="stylesheet" href="../../assets/css/styles_main.css">
-    <link rel="stylesheet" href="../../assets/css/registro.css">
-    
-    
-    
-    
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&family=Poppins:wght@100;200;400;700&display=swap"
+          rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="../../assets/css/styles_main.css">
+    <link rel="stylesheet"
+          href="../../assets/css/footer.css">
+    <link rel="stylesheet"
+          href="../../assets/css/registro.css">
 </head>
-<body class="register">
 
-    <header>
-        <div class="container">
-            <div class="rowPers row align-items-center">
-                <div class="col-md-4 mt-4 mb-4 mt-md-0 mb-md-0"><img class="imglogo img-fluid"
-                         src="../../assets/img/pag-Inicio/img-barradenavegacion/logo.png"
-                         alt="Logo"></div>
+<body class="register">
+    <div class="container mainPer">
+        <!-- header -->
+        <header class="container">
+            <div class="row align-items-center mt-md-5">
+                <div class="col-md-4 mt-4 mb-4 mt-md-0 mb-md-0"><a href="../../"><img class="imglogo img-fluid"
+                             src="../../assets/img/pag-Inicio/img-barradenavegacion/logo.png"
+                             alt="Logo"></a></div>
                 <div class="col-md-3 mb-4 mb-md-0">
                     <form action="/."
                           method="get">
@@ -58,16 +66,16 @@
                     <!-- nav -->
                     <nav>
                         <div class="row justify-content-between justify-content-md-start arfigcaption">
-                            <div class="col-2 icoNosotros">
+                            <div class="col-2">
                                 <figure onmouseover="changeClass('nosotros')"
                                         onmouseout="restClass('nosotros')"
-                                        class="text-center  mt-1 fig"
-                                        title="Nosotros"><a href="https://www.mountaincode.com.ar/inicio/"
-                                       target="_self"><img class="img-fluid imgPer"
+                                        class="text-center  mt-1"
+                                        title="Nosotros"><a href="https://mountaincode.com.ar/integrantes/"
+                                       target="_blank"><img class="img-fluid imgPer"
                                              src="../../assets/img/pag-Inicio/img-barradenavegacion/nosotros.png"
                                              alt="Nosotros"></a>
                                     <figcaption id="nosotros"
-                                                class="ms-md-2 position-absolute d-none fw-lighter text-light">
+                                                class="ms-md-2 d-none fw-lighter text-light">
                                         Nosotros
                                     </figcaption>
                                 </figure>
@@ -75,13 +83,13 @@
                             <div class="col-2">
                                 <figure onmouseover="changeClass('curso')"
                                         onmouseout="restClass('curso')"
-                                        class="text-center mt-1 fig"
-                                        title="Cursos"><a href="../Cursos/index.html"
+                                        class="text-center mt-1"
+                                        title="Cursos"><a href="../../views/Cursos/"
                                        target="_self"><img class="img-fluid imgPer "
                                              src="../../assets/img/pag-Inicio/img-barradenavegacion/cursos.png"
                                              alt="Cursos"></a>
                                     <figcaption id="curso"
-                                                class="ms-md-3 position-absolute d-none fw-lighter text-light">
+                                                class="ms-md-3 d-none fw-lighter text-light">
                                         Cursos
                                     </figcaption>
                                 </figure>
@@ -90,26 +98,26 @@
                                 <figure onmouseover="changeClass('compras')"
                                         onmouseout="restClass('compras')"
                                         class="text-center mt-1 fig"
-                                        title="Compras"><a href="../Store/index.html"
+                                        title="Compras"><a href="../../views/Store/"
                                        target="_self"><img class="img-fluid imgPer"
                                              src="../../assets/img/pag-Inicio/img-barradenavegacion/cart.png"
                                              alt="Compras"></a>
                                     <figcaption id="compras"
-                                                class="ms-md-3 position-absolute d-none fw-lighter text-light">
-                                        Compras
+                                                class="ms-md-3 d-none fw-lighter text-light">
+                                        Tienda
                                     </figcaption>
                                 </figure>
                             </div>
                             <div class="col-2">
                                 <figure onmouseover="changeClass('noti')"
                                         onmouseout="restClass('noti')"
-                                        class="text-center mt-1 fig"
+                                        class="text-center mt-1"
                                         title=""><a href="#"
                                        target="_self"><img class="img-fluid imgPer"
                                              src="../../assets/img/pag-Inicio/img-barradenavegacion/noti.png"
                                              alt=""></a>
                                     <figcaption id="noti"
-                                                class="ms-md-3 position-absolute d-none fw-lighter text-light">
+                                                class="ms-md-3 d-none fw-lighter text-light">
                                         Avisos
                                     </figcaption>
                                 </figure>
@@ -117,13 +125,13 @@
                             <div class="col-2">
                                 <figure onmouseover="changeClass('perfil')"
                                         onmouseout="restClass('perfil')"
-                                        class="text-center mt-1 fig"
-                                        title="Perfil"><a href="../Perfil/index.html"
+                                        class="text-center mt-1"
+                                        title="Perfil"><a href="../../views/Perfil/"
                                        target="_self"><img class="img-fluid imgPer"
                                              src="../../assets/img/pag-Inicio/img-barradenavegacion/perfil.png"
                                              alt="Perfil"></a>
                                     <figcaption id="perfil"
-                                                class="ms-md-3 position-absolute d-none fw-lighter text-light">
+                                                class="ms-md-3 d-none fw-lighter text-light">
                                         Perfil
                                     </figcaption>
                                 </figure>
@@ -133,330 +141,378 @@
                     <!-- fin-aav  -->
                 </div>
             </div>
-        </div>
-    </header>
-   
+        </header>
+        <!-- fin-header -->
 
-    <!-- main -->
-    <main class="container-fluid">
-        <!-- aside -->
-        <aside></aside>
-         <!-- fin-aside -->
+        <!-- main -->
+        <main class="container-fluid">
+            <!-- aside -->
+            <aside></aside>
+            <!-- fin-aside -->
 
-         <!-- section -->
-        <section>
-            <div class="container">
+            <!-- section -->
+            <section>
+                <div class="container">
 
-                <div class="row">
+                    <div class="row">
 
-                    <div class="col-8 izquierda">
+                        <div class="col-8 mt-5 izquierda">
 
-                    <div class="row bg-banner bg-imagen bg-txt ">
+                            <div class="row bg-banner bg-imagen bg-txt ">
 
-                        <div class="col-10">
-                            <h1 class="txt_banner" >CREÁ UNA CUENTA</h1>
-                        </div>
-                        
-                        <div class="col-2">
-                            <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-tilde.png" class="tilde" alt="">
-                        </div>
-                    
-                    </div>
+                                <div class="col-10">
+                                    <h1 class="txt_banner">CREÁ UNA CUENTA</h1>
+                                </div>
 
-                    <div class="row input_nombre">
+                                <div class="col-2">
+                                    <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-tilde.png"
+                                         class="tilde"
+                                         alt="">
+                                </div>
 
-                        <div class="nac">
+                            </div>
 
-                        <div class="col-1">
-                            <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-usuario.png" class="usuario" alt="">
-                        </div>
-                        
-                        <div class="col-5">
-                            <input id="ingresar_nombre" name="ingresar_nombre" class="text_fecha" type="text" placeholder="Nombre">
-                        </div>
-                        </div>
+                            <div class="row input_nombre">
 
-                        <div class="telef">
+                                <div class="nac">
 
-                        <div class="col-1">
-                            <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-usuario.png" class="usuario" alt="">
-                        </div>
-                        
-                        <div class="col-5">
-                            <input id="ingresar_apellido" name="ingresar_apellido" class="text_tel" type="text" placeholder="Apellido">
-                        </div>
+                                    <div class="col-1">
+                                        <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-usuario.png"
+                                             class="usuario"
+                                             alt="">
+                                    </div>
 
-                        </div>
-                    
-                    
-                    </div>
-                    <div class="row input_usuario">
+                                    <div class="col-5">
+                                        <input id="ingresar_nombre"
+                                               name="ingresar_nombre"
+                                               class="text_fecha"
+                                               type="text"
+                                               placeholder="Nombre">
+                                    </div>
+                                </div>
 
-                        <div class="col-1" >
-                            <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-usuario.png" class="usuario" alt="">
-                        </div>
+                                <div class="telef">
 
-                        <div class="col-11">
-                            <input id="ingresar_mail" name="ingresar_mail" class="text_mail" type="text" placeholder="Ingresá tu mail">
-                        </div>
-                        <div id="Email_respuesta"></div>
+                                    <div class="col-1">
+                                        <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-usuario.png"
+                                             class="usuario"
+                                             alt="">
+                                    </div>
 
-                    </div>
+                                    <div class="col-5">
+                                        <input id="ingresar_apellido"
+                                               name="ingresar_apellido"
+                                               class="text_tel"
+                                               type="text"
+                                               placeholder="Apellido">
+                                    </div>
 
-                    <div class="row input_contraseña">
+                                </div>
 
-                        <div class="col-1">
-                            <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-usuario.png" class="contra" alt="">
-                        </div>
-                        
-                        <div class="col-11">
-                            <input class="text_mail" id="ingresar_usuario" name="ingresar_usuario" name="Email_registro" type="text" placeholder="Ingresá tu nombre de usuario">
-                        </div>
-                        <div id="Contraseña_respuesta"></div>
 
-                    </div>
+                            </div>
+                            <div class="row input_usuario">
 
-                    <div class="row input_nombre">
+                                <div class="col-1">
+                                    <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-usuario.png"
+                                         class="usuario"
+                                         alt="">
+                                </div>
 
-                        <div class="nac">
+                                <div class="col-11">
+                                    <input id="ingresar_mail"
+                                           name="ingresar_mail"
+                                           class="text_mail"
+                                           type="text"
+                                           placeholder="Ingresá tu mail">
+                                </div>
+                                <div id="Email_respuesta"></div>
 
-                        <div class="col-1">
-                            <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-contraseña.png" class="contra" alt="">
-                        </div>
-                        
-                        <div class="col-5">
-                            <input id="ingresar_contraseña" name="ingresar_contraseña" class="text_contraseña"  type="password" placeholder="Ingresá una contraseña">
-                        </div>
-                        </div>
+                            </div>
 
-                        <div class="telef">
+                            <div class="row input_contraseña">
 
-                        <div class="col-1">
-                            <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-contraseña.png" class="contra" alt="">
-                        </div>
-                        
-                        <div class="col-5">
-                            <input id="confirmar_contraseña" name="confirmar_contraseña" class="text_contraseña" type="password" placeholder="Confirmá tu contraseña">
-                        </div>
+                                <div class="col-1">
+                                    <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-usuario.png"
+                                         class="contra"
+                                         alt="">
+                                </div>
 
-                        </div>
-                    
-                    
-                    </div>
-                    
-                    <div class="row check_condiciones">
+                                <div class="col-11">
+                                    <input class="text_mail"
+                                           id="ingresar_usuario"
+                                           name="ingresar_usuario"
+                                           name="Email_registro"
+                                           type="text"
+                                           placeholder="Ingresá tu nombre de usuario">
+                                </div>
+                                <div id="Contraseña_respuesta"></div>
 
-                        <div class="check_cond">
+                            </div>
 
-                        <div class="col-2">
-                            <input class="check" type="checkbox">
-                        </div>
+                            <div class="row input_nombre">
 
-                        
+                                <div class="nac">
 
-                        <div class="col-5">
-                            <p class="text_acepto">Acepto las <br> condiciones</p>
-                        </div>
+                                    <div class="col-1">
+                                        <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-contraseña.png"
+                                             class="contra"
+                                             alt="">
+                                    </div>
 
-                        </div>
+                                    <div class="col-5">
+                                        <input id="ingresar_contraseña"
+                                               name="ingresar_contraseña"
+                                               class="text_contraseña"
+                                               type="password"
+                                               placeholder="Ingresá una contraseña">
+                                    </div>
+                                </div>
 
-                        
+                                <div class="telef">
 
-                        <div class="col-5">
-                            <button class="text_cond" type="button">Leer condiciones</button>
-                        </div>
+                                    <div class="col-1">
+                                        <img src="../../assets/img/pag-registro/img-barraderegistro/Icon-contraseña.png"
+                                             class="contra"
+                                             alt="">
+                                    </div>
 
-                        
-                    
-                    </div>
+                                    <div class="col-5">
+                                        <input id="confirmar_contraseña"
+                                               name="confirmar_contraseña"
+                                               class="text_contraseña"
+                                               type="password"
+                                               placeholder="Confirmá tu contraseña">
+                                    </div>
 
-                    <div class="row registrarme">
+                                </div>
 
-                        <div class="col-12">
-                            <button onclick="registro()" class="boton_registro" type="button">Registrarme</button>
-                        </div>
-                    
-                    </div>
 
-                    <div class="row vacia">
+                            </div>
 
-                        <div class="col-12" ></div>
+                            <div class="row check_condiciones">
 
-                    </div>
+                                <div class="check_cond">
 
-                    <div class="row con_cuenta">
+                                    <div class="col-2">
+                                        <input class="check"
+                                               type="checkbox">
+                                    </div>
 
-                        <div class="col-8">
-                            
-                            <div class="ya_tenescuenta">
-                            <p class="text_yatenescuenta">¿Ya tenés una cuenta?</p>
+
+
+                                    <div class="col-5">
+                                        <p class="text_acepto">Acepto las <br> condiciones</p>
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="col-5">
+                                    <button class="text_cond"
+                                            type="button">Leer condiciones</button>
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="row registrarme">
+
+                                <div class="col-12">
+                                    <button onclick="registro()"
+                                            class="boton_registro"
+                                            type="button">Registrarme</button>
+                                </div>
+
+                            </div>
+
+                            <div class="row vacia">
+
+                                <div class="col-12"></div>
+
+                            </div>
+
+                            <div class="row con_cuenta">
+
+                                <div class="col-8">
+
+                                    <div class="ya_tenescuenta">
+                                        <p class="text_yatenescuenta">¿Ya tenés una cuenta?</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-4">
+                                    <button class="boton_ingresaaqui"
+                                            type="button">Ingresá aquí</button>
+                                </div>
+
                             </div>
 
                         </div>
 
-                        <div class="col-4">
-                            <button class="boton_ingresaaqui" type="button">Ingresá aquí</button>
+                        <div class="col-4 derecha">
+
+                            <div class="mover_cody">
+
+                                <div class="row_imagen">
+
+                                    <div class="col-12">
+                                        <img src="../../assets/img/pag-registro/Img-espaciodefotodeusuario/cody-globo de texto.png"
+                                             class="cody"
+                                             alt="">
+                                    </div>
+
+                                </div>
+
+                                <div class="row nombre_mascota">
+
+                                    <div class="col-12">
+                                        <p class="text_nombremascota">Cody</p>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+
+
                         </div>
 
                     </div>
 
+
+
+            </section>
+            <!-- fin-section -->
+
+        </main>
+        <!-- fin-main -->
+
+        <div class="separador"></div>
+
+        <!-- footer -->
+        <footer class="container mt-5 ">
+            <!--footer parte superior -->
+            <div class="row">
+
+                <div class="col">
+                    <div class="row">
+                        <div class="col mt-3">
+                            <button class="boton txt_parrafo">Más info</button>
+                        </div>
+
+                        <div class="col mt-3">
+                            <div class="form-floating">
+                                <input class="form-control"
+                                       placeholder="Leave a comment here"
+                                       id="floatingTextarea"></input>
+                                <label for="floatingTextarea">Mail</label>
+                            </div>
+                        </div>
+
+                        <div class="col mt-2">
+                            <p class="txt_parrafo"
+                               style="text-decoration: none;">Dejanos tu mail y te enviaremos más información sobre
+                                nuestros cursos </p>
+                        </div>
                     </div>
-                    
-                    <div class="col-4 derecha">
-
-                        <div class="mover_cody"> 
-
-                        <div class="row_imagen">
-
-                            <div class="col-12">
-                                <img src="../../assets/img/pag-registro/Img-espaciodefotodeusuario/cody-globo de texto.png" class="cody" alt="">
-                            </div>
-                        
-                        </div>
-
-                        <div class="row nombre_mascota">
-
-                            <div class="col-12">
-                                <p class="text_nombremascota">Cody</p>
-                            </div>
-                        
-                        </div>
-
-
-
-                    </div> 
-
-
-
                 </div>
 
+                <div class="col">
+                    <div class="row">
+                        <div class="col mt-4 text-center">
+                            <a class="txt_parrafo"
+                               style="text-decoration: none;"
+                               href="../../index.html"> Home </a>
+                        </div>
+                        <div class="col mt-4 text-center ">
+                            <a class="txt_parrafo"
+                               style="text-decoration: none;"
+                               href="../../views/Cursos/index.html"> Cursos </a>
+                        </div>
+                        <div class="col mt-4 text-center ">
+                            <a class="txt_parrafo"
+                               style="text-decoration: none;"
+                               href="../../views/Store/index.html"> Tienda </a>
+                        </div>
+                        <div class="col mt-4 text-center ">
+                            <a class="txt_parrafo"
+                               style="text-decoration: none;"
+                               href="../../views/Perfil/index.html"> Perfil </a>
+                        </div>
+                        <div class="col mt-4 text-center ">
+                            <a class="txt_parrafo"
+                               style="text-decoration: none;"
+                               href="../../views/Login/login.html"> Login </a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!--footer parte inferior-->
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col mt-3">
+                            <p class="txt_parrafo"
+                               style="text-decoration: none; text-align: center;"> © Copyright 2022 - Argentina</p>
+                        </div>
+                    </div>
+                </div>
 
 
-            
-        </section>
-        <!-- fin-section -->
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://www.facebook.com/">
+                                <img class="icon_facebook rounded mx-auto d-block"
+                                     src="../../assets/img/pag-Inicio/img-footer/facebook-logo.png"
+                                     alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.instagram.com/">
+                                <img class="icon_instagram rounded mx-auto d-block"
+                                     src="../../assets/img/pag-Inicio/img-footer/instagram-logo.png"
+                                     alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://twitter.com/">
 
-    </main>
-    <!-- fin-main -->
+                                <img class="icon_twitter rounded mx-auto d-block"
+                                     src="../../assets/img/pag-Inicio/img-footer/twitter-logo.png"
+                                     alt="">
 
-    <div class="separador"></div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.youtube.com/">
 
-    <!-- footer -->
-    <footer class="container mt-5 ">
-      <!--footer parte superior -->
-      <div class="row">
+                                <img class="icon_youtube rounded mx-auto d-block"
+                                     src="../../assets/img/pag-Inicio/img-footer/youtube-logo.png"
+                                     alt="">
 
-          <div class="col">
-              <div class="row">
-                  <div class="col mt-3">
-                      <button class="boton txt_parrafo">Más info</button>
-                  </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-                  <div class="col mt-3">
-                      <div class="form-floating">
-                          <input class="form-control"
-                                 placeholder="Leave a comment here"
-                                 id="floatingTextarea"></input>
-                          <label for="floatingTextarea">Mail</label>
-                      </div>
-                  </div>
-
-                  <div class="col mt-2">
-                      <p class="txt_parrafo"
-                         style="text-decoration: none;">Dejanos tu mail y te enviaremos más información sobre
-                          nuestros cursos </p>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col">
-              <div class="row">
-                  <div class="col mt-4 text-center">
-                      <a class="txt_parrafo"
-                         style="text-decoration: none;"
-                         href="../../index.html"> Home </a>
-                  </div>
-                  <div class="col mt-4 text-center ">
-                      <a class="txt_parrafo"
-                         style="text-decoration: none;"
-                         href="../../views/Cursos/index.html"> Cursos </a>
-                  </div>
-                  <div class="col mt-4 text-center ">
-                      <a class="txt_parrafo"
-                         style="text-decoration: none;"
-                         href="../../views/Store/index.html"> Tienda </a>
-                  </div>
-                  <div class="col mt-4 text-center ">
-                      <a class="txt_parrafo"
-                         style="text-decoration: none;"
-                         href="../../views/Perfil/index.html"> Perfil </a>
-                  </div>
-                  <div class="col mt-4 text-center ">
-                      <a class="txt_parrafo"
-                         style="text-decoration: none;"
-                         href="../../views/Login/login.html"> Login </a>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!--footer parte inferior-->
-      <div class="row">
-          <div class="col">
-              <div class="row">
-                  <div class="col mt-3">
-                      <p class="txt_parrafo"
-                         style="text-decoration: none; text-align: center;"> © Copyright 2022 - Argentina</p>
-                  </div>
-              </div>
-          </div>
-
-
-          <div class="col">
-              <div class="row">
-                  <div class="col">
-                      <a href="https://www.facebook.com/">
-                          <img class="icon_facebook rounded mx-auto d-block"
-                               src="../../assets/img/pag-Inicio/img-footer/facebook-logo.png"
-                               alt="">
-                      </a>
-                  </div>
-                  <div class="col">
-                      <a href="https://www.instagram.com/">
-                          <img class="icon_instagram rounded mx-auto d-block"
-                               src="../../assets/img/pag-Inicio/img-footer/instagram-logo.png"
-                               alt="">
-                      </a>
-                  </div>
-                  <div class="col">
-                      <a href="https://twitter.com/">
-
-                          <img class="icon_twitter rounded mx-auto d-block"
-                               src="../../assets/img/pag-Inicio/img-footer/twitter-logo.png"
-                               alt="">
-
-                      </a>
-                  </div>
-                  <div class="col">
-                      <a href="https://www.youtube.com/">
-
-                          <img class="icon_youtube rounded mx-auto d-block"
-                               src="../../assets/img/pag-Inicio/img-footer/youtube-logo.png"
-                               alt="">
-
-                      </a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </footer>
-
-      
+    </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="../../assets/js/registro.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
     <script src="./../../assets/js/main.js"></script>
     <script src="../../assets/js/"></script>
 </body>
+
 </html>
